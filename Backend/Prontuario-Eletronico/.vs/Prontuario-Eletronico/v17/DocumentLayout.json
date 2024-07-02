@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\Prontuario-Eletronico\\Backend\\Prontuario-Eletronico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F90191BB-99DC-4350-87B9-E3BAB54F4F1C}|src\\Prontuario-Eletronico.Api\\Prontuario-Eletronico.Api.csproj|d:\\projetos\\prontuario-eletronico\\backend\\prontuario-eletronico\\src\\prontuario-eletronico.api\\controllers\\prontuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F90191BB-99DC-4350-87B9-E3BAB54F4F1C}|src\\Prontuario-Eletronico.Api\\Prontuario-Eletronico.Api.csproj|solutionrelative:src\\prontuario-eletronico.api\\controllers\\prontuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProntuarioController.cs",
+              "DocumentMoniker": "D:\\Projetos\\Prontuario-Eletronico\\Backend\\Prontuario-Eletronico\\src\\Prontuario-Eletronico.Api\\Controllers\\ProntuarioController.cs",
+              "RelativeDocumentMoniker": "src\\Prontuario-Eletronico.Api\\Controllers\\ProntuarioController.cs",
+              "ToolTip": "D:\\Projetos\\Prontuario-Eletronico\\Backend\\Prontuario-Eletronico\\src\\Prontuario-Eletronico.Api\\Controllers\\ProntuarioController.cs",
+              "RelativeToolTip": "src\\Prontuario-Eletronico.Api\\Controllers\\ProntuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:18:09.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
