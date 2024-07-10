@@ -1,15 +1,15 @@
 ﻿using System.Linq.Expressions;
 using Prontuario_Eletronico.Core.Entities;
 
-namespace Prontuario_Eletronico.Core.Interfaces.Repositories
+namespace SessionAppointment.Core.Interfaces.Repositories
 {
-    public interface IGenericoRepositorio<Entidade> where Entidade : BaseEntity
+    public interface IGenericRepository<Entity> where Entity : BaseEntity
     {
-        Task<Entidade> AdicionarAsync(Entidade entitie);
-        Task AtualizarAsync(Entidade entitie);
-        Task<List<Entidade>> EncontrarAsync(Expression<Func<Entidade, bool>> predicate);
-        Task<List<Entidade>> EncontrarAsync(Expression<Func<Entidade, bool>> predicate, params Expression<Func<Entidade, object>>[] includes);
-        Task<Entidade> ObterAsync(int id);
-        Task RemoverAsync(Entidade entitie);
+        Task<Entity> AdicionarAsync(Entity entitie);
+        Task AtualizarAsync(Entity entitie);
+        Task<List<Entity>> EncontrarAsync(Expression<Func<Entity, bool>> predicate);
+        Task<List<Entity>> EncontrarAsync(Expression<Func<Entity, bool>> predicate, params Expression<Func<Entity, object>>[] includes);
+        Task<Entity> ObterAsync(int id);
+        Task RemoverAsync(Entity entitie);
     }
 }

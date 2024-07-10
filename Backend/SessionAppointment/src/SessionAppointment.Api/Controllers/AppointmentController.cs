@@ -5,10 +5,10 @@ namespace Prontuario_Eletronico.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProntuarioController : ControllerBase
+    public class AppointmentController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Abrir()
+        public async Task<IActionResult> Open()
         {
             return Ok();
         }

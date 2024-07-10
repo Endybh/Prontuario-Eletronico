@@ -9,17 +9,17 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Prontuario-Eletronico.Api/Prontuario-Eletronico.Api.csproj", "Prontuario-Eletronico.Api/"]
-RUN dotnet restore "./Prontuario-Eletronico.Api/Prontuario-Eletronico.Api.csproj"
+COPY ["SessionAppointment.Api/SessionAppointment.Api.csproj", "SessionAppointment.Api/"]
+RUN dotnet restore "./SessionAppointment.Api/SessionAppointment.Api.csproj"
 COPY . .
-WORKDIR "/src/Prontuario-Eletronico.Api"
-RUN dotnet build "./Prontuario-Eletronico.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/SessionAppointment.Api"
+RUN dotnet build "./SessionAppointment.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Prontuario-Eletronico.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./SessionAppointment.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Prontuario-Eletronico.Api.dll"]
+ENTRYPOINT ["dotnet", "SessionAppointment.Api.dll"]
