@@ -30,7 +30,7 @@ aplicação. São elas:
  um prontuário está para uma ou mais sessões e várias sessões está para um prontuário, além do memo que representa as anotações e os registros
  da sessão, essa entidade SESSSÃO deverá contar informações como data e horário que a sessão aconteceu, bem como estar assossiada ao prontuário do paciente.
 
- Atualização de dados cadastrais
+ ### Atualização de dados cadastrais
  - Aqui será permitida a atualização dos dados cadastrais do paciente
 
 ## MÓDULO PROFISSIONAL
