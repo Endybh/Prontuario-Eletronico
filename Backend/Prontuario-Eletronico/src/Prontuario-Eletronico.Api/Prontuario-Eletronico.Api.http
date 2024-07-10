@@ -1,6 +1,0 @@
-@Prontuario_Eletronico.Api_HostAddress = http://localhost:5249
-
-GET {{Prontuario_Eletronico.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
