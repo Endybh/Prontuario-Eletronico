@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Prontuario_Eletronico.Core.Entities;
+using SessionAppointment.Core.Domain.Entities;
 
-namespace Prontuario_Eletronico.Infrastructure;
+namespace SessionAppointment.Infrastructure.DatabaseMapConfigs;
 
 public class ProfessionalDbConfig : IEntityTypeConfiguration<Professional>
 {
@@ -26,6 +27,6 @@ public class ProfessionalDbConfig : IEntityTypeConfiguration<Professional>
 
         entity.Property(e => e.DeletedAt);
 
-        entity.ToTable("profissional");
+        entity.ToTable("Profissional");
     }
 }

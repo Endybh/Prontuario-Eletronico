@@ -1,10 +1,13 @@
 using Prontuario_Eletronico.Core.Entities;
+using SessionAppointment.Core.Application.Domain.Entities;
+using SessionAppointment.Core.Domain.Entities;
+// ReSharper disable All
 
-namespace Prontuario_Eletronico.Core.Aggregations
+namespace SessionAppointment.Core.Domain.Aggregations
 {
     public class Prontuario
     {
-        public Professional Professional { get; private set; }
+        public Professional Professional { get; private set; } = new();
 
         public Patient Patient { get; private set; } = new Patient();
 

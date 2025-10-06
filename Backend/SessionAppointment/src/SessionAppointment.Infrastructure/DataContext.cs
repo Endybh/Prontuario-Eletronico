@@ -1,7 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Prontuario_Eletronico.Core.Entities;
+using SessionAppointment.Core.Application.Domain.Entities;
+using SessionAppointment.Core.Domain.Entities;
+using SessionAppointment.Infrastructure.DatabaseMapConfigs;
+// ReSharper disable All
 
-namespace Prontuario_Eletronico.Infrastructure
+namespace SessionAppointment.Infrastructure
 {
     public class DataContext : DbContext
     {

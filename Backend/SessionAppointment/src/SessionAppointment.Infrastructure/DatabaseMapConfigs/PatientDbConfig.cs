@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Prontuario_Eletronico.Core.Entities;
 
-namespace Prontuario_Eletronico.Infrastructure
+namespace SessionAppointment.Infrastructure.DatabaseMapConfigs
 {
     public class PatientDbConfig : IEntityTypeConfiguration<Patient>
     {

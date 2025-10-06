@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Prontuario_Eletronico.Api</RootNamespace>
+    <RootNamespace>SessionAppointment.Api</RootNamespace>
     <UserSecretsId>e07412f0-50aa-4754-bf77-5cb1c5b958fc</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>

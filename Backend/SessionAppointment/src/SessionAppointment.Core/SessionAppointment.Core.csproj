@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Prontuario_Eletronico.Core</RootNamespace>
+    <RootNamespace>SessionAppointment.Core</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -9,7 +9,7 @@
     <PackageReference Include="MediatR" Version="12.3.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicacao\Handlers\" />
-    <Folder Include="Aplicacao\Queries\" />
+    <Folder Include="Application\Handlers\" />
+    <Folder Include="Application\Queries\" />
   </ItemGroup>
 </Project>

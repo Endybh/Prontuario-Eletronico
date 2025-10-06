@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Prontuario_Eletronico.Core.Entities;
+using SessionAppointment.Core.Application.Domain.Entities;
 
-namespace Prontuario_Eletronico.Infrastructure
+namespace SessionAppointment.Infrastructure.DatabaseMapConfigs
 {
     public class SessaoDbConfig : IEntityTypeConfiguration<Session>
     {

@@ -1,6 +1,4 @@
-using SessionAppointment.Core.Interfaces.Repositories;
-
-namespace Prontuario_Eletronico.Api
+namespace SessionAppointment.Api.ServicesExtensions
 {
     public static class ServicesExtensions
     {
